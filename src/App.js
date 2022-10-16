@@ -1,13 +1,12 @@
 import "./styles.css";
 
+
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <h2>Dev is back</h2>
       <Card>
-           <UserImage src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
-        </Card>
+        <UserImage src="https://upload.wikimedia.org/wikipedia/commons/3/3a/M%C3%BCnster%2C_LVM%2C_B%C3%BCrogeb%C3%A4ude_--_2013_--_5149-51.jpg" />
+      </Card>
     </div>
   );
 }
